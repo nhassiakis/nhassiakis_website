@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../../../public/home-office-336378_1920.jpg">
+    <div class="background">
+    <!-- <img alt="Vue logo" src="../../../public/home-office-336378_1920.jpg"> -->
+    </div>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -21,7 +23,9 @@ export default {
   *{
     margin-top: 10px;
   }
-img {
+.background {
+
+  background-image: url("../../../public/home-office-336378_1920.jpg");
   width: 100%;
   max-height: 1000px;
   height: auto;
